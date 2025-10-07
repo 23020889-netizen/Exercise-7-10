@@ -1,3 +1,4 @@
+package AbstractClass;
 public class Square extends Shape {
     private Point centerPoint;
     public Square(double x,double y) {

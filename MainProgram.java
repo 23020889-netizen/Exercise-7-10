@@ -1,4 +1,10 @@
+
 import java.util.ArrayList;
+
+import AbstractClass.Circle;
+import AbstractClass.Rectangle;
+import AbstractClass.Shape;
+import AbstractClass.Square;
 
 public class MainProgram {
     public static void main(String[] args) {

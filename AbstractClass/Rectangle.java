@@ -1,3 +1,5 @@
+package AbstractClass;
+
 public class Rectangle extends Shape {
     private Point centerPoint;
     public Rectangle(double x,double y) {
