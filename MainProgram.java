@@ -13,13 +13,13 @@ public class MainProgram {
             }
         }
         System.out.println("So luong hinh khoi tao " + count);
-        
+        System.out.println("Danh sach chi tiet cac hinh:");
         for(Shape s : shapeList) {
             if (s instanceof Shape) {
                 System.out.println(s.toString());
             }
         }
-
+        System.out.println("Danh sach tam diem:");
         for(Shape s : shapeList) {
             if (s instanceof Shape) {
                 System.out.println(s.getPoint().toString());
