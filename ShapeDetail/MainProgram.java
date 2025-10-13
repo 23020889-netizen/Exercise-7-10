@@ -1,10 +1,7 @@
+package ShapeDetail;
+
 
 import java.util.ArrayList;
-
-import AbstractClass.Circle;
-import AbstractClass.Rectangle;
-import AbstractClass.Shape;
-import AbstractClass.Square;
 
 public class MainProgram {
     public static void main(String[] args) {
@@ -22,7 +19,7 @@ public class MainProgram {
         System.out.println("Danh sach chi tiet cac hinh:");
         for(Shape s : shapeList) {
             if (s instanceof Shape) {
-                System.out.println(s.toString());
+                System.out.println(s.showDetails());
             }
         }
         System.out.println("Danh sach tam diem:");
@@ -31,6 +28,6 @@ public class MainProgram {
                 System.out.println(s.getPoint().toString());
             }
         }
-        
+
     }
 }
